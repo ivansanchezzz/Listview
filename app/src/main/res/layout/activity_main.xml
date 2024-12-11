@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="0dp"
+        android:layout_weight="1"
+        android:background="#c0dcf3"
+        android:gravity="center"
+        android:text="PROGRAMACIÓN MULTIMEDIA"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+    <TextView
+        android:id="@+id/textFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TOCA UNA OPCIÓN"
+        android:textColor="@color/red"
+        android:background="#dce1e5"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
